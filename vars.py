@@ -5,7 +5,7 @@ from os import environ
 
 API_ID = int(environ.get("API_ID", "26375665"))
 API_HASH = environ.get("API_HASH", "568839157ce65f4d3a91647f022b6737")
-BOT_TOKEN = environ.get("BOT_TOKEN", "8380810929:AAEltCJe5zg4SE0lYav3NcSx02pTU8wMsC8")
+BOT_TOKEN = environ.get("BOT_TOKEN", "8249505758:AAEkxJvq-sRLurMGqcaogbMgJ_MXssilQ7I")
 
 OWNER = int(environ.get("OWNER", "6834250190"))
 CREDIT = environ.get("CREDIT", "𝐒нɑᎥ𝚝ɑη")
@@ -21,4 +21,5 @@ if int(OWNER) not in AUTH_USERS:
   
 #WEBHOOK = True  # Don't change this
 #PORT = int(os.environ.get("PORT", 8080))  # Default to 8000 if not set
+
 
